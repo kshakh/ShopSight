@@ -1,0 +1,15 @@
+# Core Libraries
+pyspark>=3.3.0,<3.6.0 # Spark Core and SQL
+kafka-python>=2.0.0,<3.0.0 # Kafka client
+delta-spark>=2.0.0,<3.0.0 # Delta Lake integration for Spark
+
+# Data Simulation
+faker>=15.0.0,<20.0.0 # For generating realistic fake data
+
+# Utilities (Optional, add as needed)
+# pandas>=1.5.0,<2.0.0
+# numpy>=1.20.0,<1.25.0
+# scipy>=1.9.0,<1.11.0 # For potential anomaly detection (IQR, Z-score)
+
+# Note: Ensure Java and Spark are installed and configured correctly in your environment.
+# You might need specific connectors depending on your Kafka and Delta Lake setup (e.g., S3 connectors).
